@@ -1,0 +1,9 @@
+[Unit]
+Description=OPCC Service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/OrangePiCastController/opcc-daemon.sh
+
+[Install]
+WantedBy=multi-user.target
