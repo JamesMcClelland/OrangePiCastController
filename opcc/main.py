@@ -113,9 +113,6 @@ def volume_led_color(volume):
         write2812_pylist4(spi, [[remainder, remainder, remainder]])
 
 
-
-
-
 def volume_update_bounce():
     global this_host_id
     global this_host_volume
